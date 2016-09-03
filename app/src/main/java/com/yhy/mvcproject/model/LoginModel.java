@@ -28,7 +28,7 @@ public class LoginModel extends BaseModel {
 
     public void requestData(){
         String url;
-        url = String.format(ActionConst.HTTP_USER_SERVER+"/api/v1/users/phone_no=%s", "15040292664");
+        url = String.format("");
         System.out.println("Test url is "+url);
         client.get2(url, new AsyncHttpResponseHandler() {
             @Override
